@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:md5_plugin/md5_plugin.dart';
 
 void main() {
-  var channel = MethodChannel('md5_plugin');
+  const channel = MethodChannel('md5_plugin');
 
   setUp(() {
     channel.setMockMethodCallHandler((MethodCall methodCall) async {
